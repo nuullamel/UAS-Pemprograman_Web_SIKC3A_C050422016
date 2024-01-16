@@ -12,8 +12,8 @@
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a class="nav-link" href="{{ url('dashboard-general-dashboard') }}">General Dashboard</a>
-                    </li>
+                        <a class="nav-link" href="home">General Dashboard</a>
+                    </li>   
 
                 </ul>
             </li>
@@ -32,6 +32,16 @@
                 <ul class="dropdown-menu">
                     <li>
                         <a class="nav-link" href="{{ route('subject.index') }}">Subject List</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Data mahasiswa</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="nav-link" href="{{ route('mahasiswa.index') }}">List Data</a>
                     </li>
 
                 </ul>
